@@ -1,14 +1,21 @@
 #include <iostream>
 
 
-int square(int base){
-	return base*base;
-}
+int main(int argc, char** argv, char** envp, char** auxp){
 
-int main(int argc, char** argv){
-	std::cout << "Hello World!";
+	while(*argv){
+		printf("%s\n", *argv++);
 	
-	std:: cout << std::endl << "base = 2, power = 2" << std::endl;
+	}
 
-	std::cout << square(2);
+	while(*envp){
+		printf("%s\n", *envp++);
+	
+	}
+
+	while(*auxp){
+		printf("%s\n", *auxp++);
+	
+	}
+
 }
