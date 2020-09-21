@@ -1,4 +1,5 @@
 #include <iostream>
+#include <typeinfo>
 #define GET_VARIABLE_NAME(Variable)(#Variable)
 
 void print(int i){
@@ -14,16 +15,20 @@ void print_with_name(std::string name, int i){
 		"\ttype: " << typeid(i).name() << 
 		"\tvalue: " << i << 
 		"\tsizeof: " << sizeof(i) << std::endl;
-
-
-
 }
 
+void print_with_name(std::string name, unsigned long long int i){
+	std::cout <<
+		"name: " << name <<	
+		"\ttype: " << typeid(i).name() << 
+		"\tvalue: " << i << 
+		"\tsizeof: " << sizeof(i) << std::endl;
+}
 int main(int argc, char** argv){
 	auto i = 0;
 	print_with_name(GET_VARIABLE_NAME(i), i);
 
-	unsigned long long int j = 0x8000;
+	unsigned long long int j = 0x80000000;
 	print_with_name(GET_VARIABLE_NAME(j), j);
 	
 	//binary literal
