@@ -1,0 +1,36 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdftex 2020.9.28)  30 SEP 2020 20:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ex-7.2.tex
+(./ex-7.2.tex
+! Misplaced alignment tab character &.
+l.1 {Procter &
+               Gamble's stock climbed to $2, a 10% gain.$}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.2 
+    
+? 
+)
+*
+(Please type a command or say `\end')
+*\end
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 1 ({)
+### bottom level</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb>
+Output written on ex-7.2.pdf (1 page, 23155 bytes).
+PDF statistics:
+ 16 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
